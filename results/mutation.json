@@ -1,0 +1,258 @@
+{
+  "killed": 28,
+  "total": 28,
+  "mutants": [
+    {
+      "id": 1,
+      "file": "simulator.py",
+      "mutation": "B1: mid-run arrivals start with 0 waiting time",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 2,
+      "file": "simulator.py",
+      "mutation": "preempted process forgets it is waiting again",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 3,
+      "file": "simulator.py",
+      "mutation": "B12: zero-length bursts accepted (crash later)",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_every_file_mentioned_in_readme_exists"
+      ]
+    },
+    {
+      "id": 4,
+      "file": "simulator.py",
+      "mutation": "B13: negative arrival times accepted",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_every_file_mentioned_in_readme_exists"
+      ]
+    },
+    {
+      "id": 5,
+      "file": "simulator.py",
+      "mutation": "B14: duplicate process IDs accepted",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_every_file_mentioned_in_readme_exists"
+      ]
+    },
+    {
+      "id": 6,
+      "file": "simulator.py",
+      "mutation": "first dispatch counted as a context switch",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 7,
+      "file": "simulator.py",
+      "mutation": "B3: fairness computed on raw waiting times",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 8,
+      "file": "simulator.py",
+      "mutation": "arrival waiting missing from reward signal",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 9,
+      "file": "simulator.py",
+      "mutation": "preempted process re-queued before new arrivals",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 10,
+      "file": "simulator.py",
+      "mutation": "off-by-one: time slice runs one unit too long",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 11,
+      "file": "priority.py",
+      "mutation": "Priority scheduler picks the LOWEST priority",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 12,
+      "file": "sjf.py",
+      "mutation": "SJF picks the longest job",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 13,
+      "file": "workload_generator.py",
+      "mutation": "B2: inter-arrival gap ignored (always 1)",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 14,
+      "file": "workload_generator.py",
+      "mutation": "CSV loader ignores the priority column",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_every_file_mentioned_in_readme_exists"
+      ]
+    },
+    {
+      "id": 15,
+      "file": "gym_env.py",
+      "mutation": "B4: environment uses unseeded global RNG",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_every_file_mentioned_in_readme_exists"
+      ]
+    },
+    {
+      "id": 16,
+      "file": "gym_env.py",
+      "mutation": "observation drops the priority feature",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 17,
+      "file": "gym_env.py",
+      "mutation": "waiting reward not normalised per process",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 18,
+      "file": "q_learning.py",
+      "mutation": "Q-learning ignores the discount factor",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_every_file_mentioned_in_readme_exists"
+      ]
+    },
+    {
+      "id": 19,
+      "file": "q_learning.py",
+      "mutation": "Q-learning ignores the learning rate",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 20,
+      "file": "q_learning.py",
+      "mutation": "Q-update moves AWAY from the target",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 21,
+      "file": "q_learning.py",
+      "mutation": "B6: no action masking (agent may pick empty slots)",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 22,
+      "file": "q_learning.py",
+      "mutation": "terminal state still bootstraps from next state",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 23,
+      "file": "q_learning.py",
+      "mutation": "training always uses the smallest workload size",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 24,
+      "file": "q_learning.py",
+      "mutation": "agent/environment size mismatch not detected",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_every_file_mentioned_in_readme_exists"
+      ]
+    },
+    {
+      "id": 25,
+      "file": "q_learning.py",
+      "mutation": "evaluation leaks training seeds into the test set",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_headline_table_matches_the_code"
+      ]
+    },
+    {
+      "id": 26,
+      "file": "evaluate.py",
+      "mutation": "permutation test is one-sided",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_readme_improvement_claims_match_the_code"
+      ]
+    },
+    {
+      "id": 27,
+      "file": "evaluate.py",
+      "mutation": "Holm correction skipped (raw p-values used)",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_every_file_mentioned_in_readme_exists"
+      ]
+    },
+    {
+      "id": 28,
+      "file": "main.py",
+      "mutation": "B15: CLI accepts negative seeds",
+      "status": "KILLED",
+      "caught_by": [
+        "tests/test_docs.py::test_every_file_mentioned_in_readme_exists"
+      ]
+    }
+  ]
+}

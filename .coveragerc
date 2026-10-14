@@ -1,0 +1,12 @@
+[run]
+omit =
+    tests/*
+    venv/*
+    mutation_test.py
+    test.py
+    verify_all.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:

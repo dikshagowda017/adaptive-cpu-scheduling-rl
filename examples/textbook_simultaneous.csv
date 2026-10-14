@@ -1,0 +1,5 @@
+id,arrival,burst,priority
+P1,0,6,3
+P2,0,8,1
+P3,0,7,4
+P4,0,3,2

@@ -1,0 +1,7 @@
+workload_set,scheduler,avg_waiting_time,unseen_state_rate
+training workloads,FCFS,9.0125,
+training workloads,RL (Q-learning),6.15,0.0
+training workloads,"RL (full-state, original)",6.7875,0.0
+unseen workloads,FCFS,10.05125,
+unseen workloads,RL (Q-learning),6.66875,0.0
+unseen workloads,"RL (full-state, original)",9.98625,0.61

@@ -1,0 +1,6 @@
+id,arrival,burst,priority
+Long,0,20,5
+Short1,1,2,1
+Short2,1,3,2
+Short3,2,1,3
+Short4,3,2,4

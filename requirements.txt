@@ -1,0 +1,9 @@
+# Runtime
+gymnasium>=0.29
+numpy>=1.23
+matplotlib>=3.6
+pandas>=1.5
+# Testing
+pytest>=7.0
+pytest-cov>=4.0
+hypothesis>=6.0
